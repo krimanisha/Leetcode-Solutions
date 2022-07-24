@@ -1,1 +1,2 @@
-​
+### Approach:-
+We will create a vector to store the count of how many numbers are smaller than current number. Here, I created a res vector for storing the count. We will iterate two for loop from 0 to size of array-1 because in first iteration we will find the current number to be compared with rest of the numbers and for that current number, there will be another iteration from 0 to sizeofarray-1 so that each number will be compared and both iterative variable (i and j) must be different. So, it will increase the count. And, we will push back that count in the created vector.
